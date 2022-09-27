@@ -46,7 +46,7 @@ const (
 	MaxNumRemoteTargets             = 250
 	MaxNumSrcTCPPorts               = 512
 	MaxPacketSizeBytes              = 1500
-	MinBatchInterval                = 10 * time.Second
+	MinBatchInterval                = 1 * time.Second
 	NumQOSDCSPValues                = 11
 	PcapMaxSnapLen                  = 128
 	PortHTTP                        = 80
